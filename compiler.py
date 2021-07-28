@@ -6,12 +6,12 @@ total_kills='totk'
 hp_max_tag='hpmax'
 hp_level='hplvl'
 
-start_with_hearts=5
-end_with_hearts=20
+start_with_hearts=1
+end_with_hearts=10
 num_bossbars=50
 
 #array should have end_with_hearts - start_with_hearts entries
-hp_xp_per_level=[40,50,60,70,70,70,70,70,100,100,150,150,200,200,200]
+hp_xp_per_level=[3,8,21,54,137,352,901,2306,5903]
 same=1
 sames=[]
 for idx in range(0,len(hp_xp_per_level)):
